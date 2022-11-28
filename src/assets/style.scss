@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.app{
+  display: flex;
+  font-family: 'Lato', sans-serif;
+}
+.main-layout{
+  display: flex;
+  width: 100%;
+  background: #232328;
+  min-height: 100vh;
+  color: #a5a5a8;
+  &__content-container{
+    width: 100%;
+  }
+}
